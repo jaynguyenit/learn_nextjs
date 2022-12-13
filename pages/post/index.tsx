@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-function pageServices(){
+function SinglePost(){
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const router = useRouter()
     const {
@@ -14,5 +14,5 @@ function pageServices(){
         </div>
     )
 }
-export default pageServices;
+export default SinglePost;
 
