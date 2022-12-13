@@ -1,1 +1,1 @@
-This is learn Next.js
+This is learn Next.js 1
