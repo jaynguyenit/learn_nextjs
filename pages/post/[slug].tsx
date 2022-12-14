@@ -41,7 +41,7 @@ export async function getStaticProps(context: { params: {
   const { data } = await client.query({
     query: gql`
     query NewQuery {
-      postBy(slug:${slug}) {
+      postBy(slug:"test-post-2") {
         title
         content
         featuredImage {
